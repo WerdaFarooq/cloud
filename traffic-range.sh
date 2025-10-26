@@ -33,7 +33,7 @@ if [[ -z "$start_epoch" || -z "$end_epoch" ]]; then
 fi
 
 # Define log files
-log_files=$(ls ../logs/apache_*access.log ../logs/backend_*access.log.* 2>/dev/null)
+log_files=$(ls ../logs/backend_*access.log ../logs/backend_*access.log.* 2>/dev/null)
 
 # Function to truncate long strings
 truncate_string() {
